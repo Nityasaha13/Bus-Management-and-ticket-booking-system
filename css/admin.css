@@ -1,0 +1,77 @@
+/* Add Bus button */
+button {
+  margin: 10px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+/* Edit and Delete buttons */
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  margin: 5px;
+  color: white;
+  background-color: dodgerblue;
+  border: none;
+  cursor: pointer;
+}
+
+/* Form container */
+#edit-form-container,
+#delete-confirmation-container {
+  display: none;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Form labels */
+#edit-form label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Form input fields */
+#edit-form input[type="text"],
+#edit-form input[type="number"] {
+  width: 200px;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+/* Form buttons */
+#edit-form button[type="submit"],
+#edit-form button.cancel-button,
+#delete-confirmation-container button {
+  padding: 5px 10px;
+  margin: 5px;
+  color: white;
+  background-color: dodgerblue;
+  border: none;
+  cursor: pointer;
+}
+
+/* Success message */
+.success-message {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: green;
+}

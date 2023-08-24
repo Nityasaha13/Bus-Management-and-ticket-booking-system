@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.edit-button,
+.delete-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-button {
+  background-color: #2196F3;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #3e8e41;
+}
+
+#edit-form-container,
+#delete-confirmation-container {
+  display: none;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
+  max-width: 400px;
+}
+
+#edit-form-container h2,
+#delete-confirmation-container h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+#edit-form-container label,
+#delete-confirmation-container p {
+  color: #333;
+  text-align: left;
+  margin: 10px 0;
+}
+
+#edit-form-container input[type="text"],
+#edit-form-container input[type="number"],
+#delete-confirmation-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+#edit-form-container button[type="submit"],
+#edit-form-container button.cancel-button,
+#delete-confirmation-container button {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+#edit-form-container button.cancel-button {
+  background-color: #f44336;
+}
+
+#edit-form-container button[type="submit"]:hover,
+#edit-form-container button.cancel-button:hover,
+#delete-confirmation-container button:hover {
+  background-color: #3e8e41;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #4CAF50;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
