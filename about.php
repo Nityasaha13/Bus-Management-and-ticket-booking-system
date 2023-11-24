@@ -148,23 +148,17 @@ if(isset($_POST['submita']))
 	  
 		 <div class="swiper-slide slide">
             
-            <p>Nitya Gopal Saha a very dedicated member of this team, overseeing the entire bus management system project.</p>
+            <p>Nitya Gopal Saha is a very dedicated member of this team, overseeing the entire bus management system project.</p>
             <h3>Team Member</h3>
             <span></span>
             <img src="images/nitya.jpg" alt="">
          </div>
 
          <div class="swiper-slide slide">
-            <p>Ananya Saha is gives assistance for documentation, designing and database in the "Bus Management System" project.</p>
+            <p>Ananya Saha gives assistance for documentation, designing, and database in the "Bus Management System" project.</p>
             <h3>Team Member</h3>
             <span></span>
             <img src="images/ankhi.jpg" alt="">
-         </div>
-         <div class="swiper-slide slide">
-            <p>Know more about this project, team and guide. more Information about members with role in this project and Documentation.</p>
-            <h3></h3>
-            <span><a href="about_team.php" class="btn">Click Here</a></span>
-            <img src="images/bus logo.jpg" alt="">
          </div>
 
       </div>
